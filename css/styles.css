@@ -80,6 +80,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -115,6 +116,7 @@ img {
 
 .header .container {
   display: flex;
+  padding: 24px 0;
 }
 
 .header .nav {
@@ -128,7 +130,6 @@ img {
 
 .nav-list {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
