@@ -192,6 +192,10 @@ img {
 
 /* section Benefits */
 
+.benefits .container {
+  padding: 64px 0 120px 0;
+}
+
 .subsection-title {
   font-weight: 500;
   font-size: 20px;
@@ -205,6 +209,10 @@ img {
 
 .our-team {
   background-color: #f4f4fd;
+}
+
+.our-team .container {
+  padding: 120px 0;
 }
 
 .our-team .list .list-item {
@@ -223,10 +231,18 @@ img {
 }
 /* section Our Portfolio */
 
+.our-portfolio .container {
+  padding: 120px 0;
+}
+
 /* footer */
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer .container {
+  padding: 99px 864px 101px 0;
 }
 
 .footer .text,
