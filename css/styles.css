@@ -47,9 +47,8 @@ img {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section-title {
@@ -116,8 +115,6 @@ img {
 
 .header .container {
   display: flex;
-  padding: 0 15px;
-  padding: 24px 0;
 }
 
 .nav {
