@@ -116,11 +116,8 @@ img {
 
 .header .container {
   display: flex;
+  padding: 0 15px;
   padding: 24px 0;
-}
-
-.header .nav {
-  display: flex;
 }
 
 .nav {
