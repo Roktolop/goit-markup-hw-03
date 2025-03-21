@@ -66,6 +66,11 @@ img {
 
 /* header  */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  height: 72px;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -118,6 +123,7 @@ img {
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .nav-list {
