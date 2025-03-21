@@ -49,6 +49,7 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  padding: 24px 0;
 }
 
 .section-title {
@@ -115,7 +116,6 @@ img {
 
 .header .container {
   display: flex;
-  padding: 24px 0;
 }
 
 .nav {
