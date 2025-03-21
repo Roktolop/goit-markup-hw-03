@@ -48,7 +48,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 24px 15px;
+  padding: 0 15px;
 }
 
 .section-title {
