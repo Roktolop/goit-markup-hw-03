@@ -211,7 +211,7 @@ img {
   gap: 24px;
 }
 
-.benefits .container .list .list.list-item {
+.benefits .container .list .list .list-item {
   flex-basis: calc((100% - 72px) / 4);
 }
 
