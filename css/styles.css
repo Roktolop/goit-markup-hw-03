@@ -211,8 +211,8 @@ img {
   gap: 24px;
 }
 
-.benefits .container .list:first-child {
-  width: calc((100% - 72px) / 4);
+.benefits .container .list .list.list-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .benefits .container .list .list-item .subsection-title {
