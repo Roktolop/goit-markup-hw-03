@@ -180,12 +180,12 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  cursor: pointer;
 }
 
 .title-button:hover,
 .title-button:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 /* section Benefits */
