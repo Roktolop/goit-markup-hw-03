@@ -232,9 +232,6 @@ img {
 
 .our-team {
   background-color: #f4f4fd;
-}
-
-.our-team .container {
   padding: 120px 0;
 }
 
@@ -242,7 +239,14 @@ img {
   margin-bottom: 72px;
 }
 
+.our-team .container .list {
+  display: flex;
+  gap: 24px;
+}
+
 .our-team .list .list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
@@ -254,6 +258,10 @@ img {
   background: #fff;
 }
 
+.our-team-list-list-item-persona-info {
+  padding: 32px 0;
+}
+
 .our-team .list .subsection-title {
   font-weight: 500;
   font-size: 20px;
@@ -263,6 +271,12 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+
+  margin-bottom: 8px;
+}
+
+.our-team .list .text {
+  text-align: center;
 }
 
 /* section Our Portfolio */
