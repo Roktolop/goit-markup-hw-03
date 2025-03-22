@@ -76,13 +76,6 @@ img {
   text-transform: capitalize;
 }
 
-/* header  */
-
-.header {
-  border-bottom: 1px solid #e7e9fc;
-  height: 72px;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -92,11 +85,49 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+}
+
+/* header  */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header .logo {
   margin-right: 76px;
 }
 
 .logo-part {
   color: #2e2f42;
+}
+
+.header .container {
+  display: flex;
+}
+
+.header .container .link {
+  display: block;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.adress {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.adress-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav .list .link {
@@ -125,29 +156,6 @@ img {
 .adress .list .link:hover,
 .adress .list .link:focus {
   color: #404bbf;
-}
-
-.header .container {
-  display: flex;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-}
-
-.nav-list {
-  display: flex;
-  gap: 40px;
-}
-
-.adress {
-  margin-left: auto;
-}
-
-.adress-list {
-  display: flex;
-  gap: 40px;
 }
 
 /* section Title */
@@ -328,4 +336,8 @@ img {
 .footer .text,
 .footer .logo-part {
   color: #f4f4fd;
+}
+
+.footer .container .text {
+  max-width: 264px;
 }
